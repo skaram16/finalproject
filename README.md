@@ -12,10 +12,35 @@ This is a multi-label classification, with 2 labels:
 - 0: passenger did not survive/passed away
 - 1: passenger survived
 
+For this type of feature, we can observe the average survival of passengers within each categories. The observed features are: 
 
+- PClass
+- Sex
+- Embarked
+- SibSp
+- Parch
 
+Conclusion:
 
+- Pclass and Sex has a great correlation with the survival of people -> Keep directly them as features
+- SibSp & Parch have a sort of correlation but feature engineering is required: We can sum the two and then know:
+	- if the passenger was alone 
+	- if the passenger was with a big or a small family
+- Embarked: 3 labels with no assumed order -> one-hot encoding 
 
+### Numerical Features
+
+For this type of feature, we can observe the distribution of the passengers given the survival. The observed features are: 
+
+- Age
+- Fare
+- Gender
+
+<u>Conclusion:</u>
+- Younger and older people survived.
+- The middle age (20-40) people did not survive. 
+- We should consider that the passengers age is a predictor
+- Age is skewed and Fare is highly skewed
 
 
 
