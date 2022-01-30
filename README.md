@@ -44,6 +44,7 @@ For this type of feature, we can observe the distribution of the passengers give
 
 
 
-
+### Resource Sites for Presentation:
 
 Tableau - https://public.tableau.com/app/profile/sabrina6697/viz/Final_Project_Titanic/AgeHistogram?publish=yes
+Google Slides - https://docs.google.com/presentation/d/1IFVcrnvRRrImdb5s6TLPkYXL-65yKagD_-F9EQwRS48/edit?usp=sharing
